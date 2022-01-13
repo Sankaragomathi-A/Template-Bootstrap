@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-img{
+    position: relative;
+}
+.content{
+position: absolute;
+top: 20%;
+width: 100%;
+text-align: center;
+}
+   
+                        /*-----testimonials*/
+#test{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.testimonials img{
+    border-radius: 100%;
+}
+.test-content{
+    background-color:rgb(86, 128, 243);
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.number{
+    border-right: 3px solid white;
+}
+.our-team img{
+    border-radius: 50%;
+}
+input[type=text],textarea{
+    width: 100%;
+box-shadow: 1px 1px 1px rgb(52, 53, 52);
+}
+#footer ul li{
+    list-style: none;
+    color: #9e9e9e;
+}
+.blog-card{
+    display: flex;
+    justify-content: center;
+}
+
+#footer h3{
+    width: fit-content;
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: relative;
+    left: 0;
+    top: 10px;
+    
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
